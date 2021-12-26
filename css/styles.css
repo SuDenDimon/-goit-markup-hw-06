@@ -663,6 +663,41 @@ header .logo {
 .icon-close.is-hidden {
   pointer-events: none;
 }
+.modal-text {
+  display: inline-flex;
+  justify-content: center;
+  padding: 40px 40px 12px 40px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.modal-form {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.form-input-box {
+  position: relative;
+  color: #757575;
+}
+.form-input {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.form-input-icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 34%;
+  left: 10px;
+}
 .form-sub {
   padding-left: 93px;
 }
@@ -699,6 +734,10 @@ label {
   color: #fff;
 }
 .button-sub {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin-left: 12px;
   width: 200px;
   height: 50px;
@@ -713,5 +752,10 @@ label {
   letter-spacing: 0.06em;
   color: #FFFFFF;
 }
+.icon-telegram {
+  padding-left: 10px;
+}
+
+
 
 

@@ -414,16 +414,20 @@
             </li> 
           </ul>
         </div>
-        <form class="form-sub" action="">
-          <label for="subscription" class="subscription">ПОДПИШИТЕСЬ НА РАССЫЛКУ</label>
-          <input type="email" name="подписка на канал" class="input-sub" id="subscription" placeholder="E-mail"/>
-          <button class="button-sub" type="submit">Подписаться
-            <svg class="icon-telegram" width="24" height="24">
-              <use href="./images/symbol-defs.svg#icon-icon-send-1">
-              </use>
-            </svg>
-          </button>
-        </form> 
+        <div class="sub-footer">
+          <h3 class="footer-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+          <div class="div-sub-form">
+            <form class="form-sub" action="">
+              <label for="subscription" class="subscription"></label>
+                <input type="email" name="подписка на канал" class="input-sub" id="subscription" placeholder="E-mail"/>
+                <button class="button-sub" type="submit">Подписаться
+                  <svg class="icon-telegram" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-icon-send-1"></use>
+                  </svg>
+                </button>
+            </form>
+          </div>
+        </div> 
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -460,9 +464,13 @@
             Коментарий
             <textarea name="user-msg" class="form-message" placeholder="Введите текст"></textarea>
           </label>
-          <input type="checkbox" name="checkbox-input" class="policy-checkbox">
-          <label class="policy-box">
-            <span class="check-box-item"></span>
+          <input type="checkbox" name="checkbox-input" class="policy-checkbox" id="policy-check">
+          <label class="policy-box" for="policy-check">
+            <span class="check-box-item">
+            <svg class="" width="3" height="3">
+              <use href="./images/symbol-defs.svg#icon-Vector-4"></use>
+            </svg>
+            </span>
             Соглашаюсь с рассылкой и принимаю<a href="#" class="user-link">Условия договора</a>
           </label>
           <button type="submit" class="form-submit-btn">Отправить</button>

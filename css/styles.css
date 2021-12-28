@@ -678,18 +678,23 @@ header .logo {
   padding-left: 40px;
   padding-right: 40px;
 }
-.modal-form :last-child {
-  display: block;
-  justify-content: center;
-}
 .form-input-box {
-  position: relative;
+  display: block;
   color: #757575;
   border-color: #757575;
+  margin-bottom: 10px;
+}
+.input-name {
+  font-size: 12px;
+}
+.input-wrapper {
+  position: relative;
+  width: 100%;
 }
 .form-input, .form-message {
   margin-top: 4px;
   position: relative;
+  font-size: 12px;
   width: 100%;
   height: 40px;
   padding: 0% 40px;
@@ -723,29 +728,52 @@ header .logo {
   width: 18px;
   height: 18px;
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 10px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(-50%);
 }
 .form-sub {
   padding-left: 93px;
 }
 .form-submit-btn {
-  margin: auto;
+  display: block;
+  margin: 0 auto;
   margin-top: 30px;
-  width: 200px;
-  height: 50px;
+  color: #fff;
+  font-weight: bold;
+  background: #188CE8;
+  padding: 10px 55px;
 }
-.checkbox-input {
-  display: flex;
-  justify-content: space-around;
-  padding-left: 15px;
-  padding-right: 15px;
+.user-link {
+  margin-left: 7px;
 }
-label {
+.policy-box {
   display: flex;
-  flex-direction: column;
-  padding-bottom: 10px;
+  padding-left: 12px;
+  font-size: 14px;
+  color: #757575;
+}
+.policy-box a{
+  color: #2196F3;
+  display: flex;
+  align-items: center;
+}
+.policy-checkbox {
+  visibility: hidden;
+}
+.check-box-item {
+  padding-right: 7px;
+}
+.policy-checkbox{
+
+}
+.policy-box::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border: 1px solid#212121;
+  border-radius: 2px;
 }
 .subscription {
   font-family: Roboto;

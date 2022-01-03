@@ -838,7 +838,6 @@ header .logo {
   text-align: center;
   margin-left: 12px;
   padding: 10px 28px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -849,7 +848,6 @@ header .logo {
   letter-spacing: 0.06em;
   color: #FFFFFF;
 }
-
 .icon-telegram {
   padding-left: 10px;
 }
